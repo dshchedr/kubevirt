@@ -372,6 +372,7 @@ type FeatureHyperv struct {
 	TLBFlush        *TLBFlush         `xml:"tlbflush,omitempty"`
 	IPI             *FeatureState     `xml:"ipi,omitempty"`
 	EVMCS           *FeatureState     `xml:"evmcs,omitempty"`
+	VSM             *FeatureState     `xml:"vsm,omitempty"`
 }
 
 type FeatureSpinlocks struct {

@@ -21480,6 +21480,12 @@ func schema_kubevirtio_api_core_v1_FeatureHyperv(ref common.ReferenceCallback) c
 							Ref:         ref(corev1.FeatureState{}.OpenAPIModelName()),
 						},
 					},
+					"vsm": {
+						SchemaProps: spec.SchemaProps{
+							Description: "VSM exposes the Virtual Secure Mode enlightenment to the guest. Defaults to the machine type setting.",
+							Ref:         ref(corev1.FeatureState{}.OpenAPIModelName()),
+						},
+					},
 				},
 			},
 		},

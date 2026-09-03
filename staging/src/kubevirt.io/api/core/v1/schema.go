@@ -1384,6 +1384,10 @@ type FeatureHyperv struct {
 	// Defaults to the machine type setting.
 	// +optional
 	EVMCS *FeatureState `json:"evmcs,omitempty"`
+	// VSM exposes the Virtual Secure Mode enlightenment to the guest.
+	// Defaults to the machine type setting.
+	// +optional
+	VSM *FeatureState `json:"vsm,omitempty"`
 }
 
 type FeatureKVM struct {

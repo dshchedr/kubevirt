@@ -7426,6 +7426,17 @@ var CRDsValidation map[string]string = map[string]string{
                                     Defaults to true.
                                   type: boolean
                               type: object
+                            vsm:
+                              description: |-
+                                VSM exposes the Virtual Secure Mode enlightenment to the guest.
+                                Defaults to the machine type setting.
+                              properties:
+                                enabled:
+                                  description: |-
+                                    Enabled determines if the feature should be enabled or disabled on the guest.
+                                    Defaults to true.
+                                  type: boolean
+                              type: object
                           type: object
                         hypervPassthrough:
                           description: |-
@@ -10961,6 +10972,17 @@ var CRDsValidation map[string]string = map[string]string{
                         Defaults to true.
                       type: boolean
                   type: object
+                vsm:
+                  description: |-
+                    VSM exposes the Virtual Secure Mode enlightenment to the guest.
+                    Defaults to the machine type setting.
+                  properties:
+                    enabled:
+                      description: |-
+                        Enabled determines if the feature should be enabled or disabled on the guest.
+                        Defaults to true.
+                      type: boolean
+                  type: object
               type: object
             preferredKvm:
               description: PreferredKvm optionally enables and configures KVM features
@@ -13621,6 +13643,17 @@ var CRDsValidation map[string]string = map[string]string{
                     vpindex:
                       description: |-
                         VPIndex enables the Virtual Processor Index to help windows identifying virtual processors.
+                        Defaults to the machine type setting.
+                      properties:
+                        enabled:
+                          description: |-
+                            Enabled determines if the feature should be enabled or disabled on the guest.
+                            Defaults to true.
+                          type: boolean
+                      type: object
+                    vsm:
+                      description: |-
+                        VSM exposes the Virtual Secure Mode enlightenment to the guest.
                         Defaults to the machine type setting.
                       properties:
                         enabled:
@@ -17844,6 +17877,17 @@ var CRDsValidation map[string]string = map[string]string{
                             Defaults to true.
                           type: boolean
                       type: object
+                    vsm:
+                      description: |-
+                        VSM exposes the Virtual Secure Mode enlightenment to the guest.
+                        Defaults to the machine type setting.
+                      properties:
+                        enabled:
+                          description: |-
+                            Enabled determines if the feature should be enabled or disabled on the guest.
+                            Defaults to true.
+                          type: boolean
+                      type: object
                   type: object
                 hypervPassthrough:
                   description: |-
@@ -20437,6 +20481,17 @@ var CRDsValidation map[string]string = map[string]string{
                             vpindex:
                               description: |-
                                 VPIndex enables the Virtual Processor Index to help windows identifying virtual processors.
+                                Defaults to the machine type setting.
+                              properties:
+                                enabled:
+                                  description: |-
+                                    Enabled determines if the feature should be enabled or disabled on the guest.
+                                    Defaults to true.
+                                  type: boolean
+                              type: object
+                            vsm:
+                              description: |-
+                                VSM exposes the Virtual Secure Mode enlightenment to the guest.
                                 Defaults to the machine type setting.
                               properties:
                                 enabled:
@@ -25632,6 +25687,17 @@ var CRDsValidation map[string]string = map[string]string{
                                             Defaults to true.
                                           type: boolean
                                       type: object
+                                    vsm:
+                                      description: |-
+                                        VSM exposes the Virtual Secure Mode enlightenment to the guest.
+                                        Defaults to the machine type setting.
+                                      properties:
+                                        enabled:
+                                          description: |-
+                                            Enabled determines if the feature should be enabled or disabled on the guest.
+                                            Defaults to true.
+                                          type: boolean
+                                      type: object
                                   type: object
                                 hypervPassthrough:
                                   description: |-
@@ -27775,6 +27841,17 @@ var CRDsValidation map[string]string = map[string]string{
                 vpindex:
                   description: |-
                     VPIndex enables the Virtual Processor Index to help windows identifying virtual processors.
+                    Defaults to the machine type setting.
+                  properties:
+                    enabled:
+                      description: |-
+                        Enabled determines if the feature should be enabled or disabled on the guest.
+                        Defaults to true.
+                      type: boolean
+                  type: object
+                vsm:
+                  description: |-
+                    VSM exposes the Virtual Secure Mode enlightenment to the guest.
                     Defaults to the machine type setting.
                   properties:
                     enabled:
@@ -31310,6 +31387,17 @@ var CRDsValidation map[string]string = map[string]string{
                                         vpindex:
                                           description: |-
                                             VPIndex enables the Virtual Processor Index to help windows identifying virtual processors.
+                                            Defaults to the machine type setting.
+                                          properties:
+                                            enabled:
+                                              description: |-
+                                                Enabled determines if the feature should be enabled or disabled on the guest.
+                                                Defaults to true.
+                                              type: boolean
+                                          type: object
+                                        vsm:
+                                          description: |-
+                                            VSM exposes the Virtual Secure Mode enlightenment to the guest.
                                             Defaults to the machine type setting.
                                           properties:
                                             enabled:
