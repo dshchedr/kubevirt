@@ -1810,6 +1810,11 @@ func (in *FeatureHyperv) DeepCopyInto(out *FeatureHyperv) {
 		*out = new(FeatureState)
 		(*in).DeepCopyInto(*out)
 	}
+	if in.VSM != nil {
+		in, out := &in.VSM, &out.VSM
+		*out = new(FeatureState)
+		(*in).DeepCopyInto(*out)
+	}
 	return
 }
 

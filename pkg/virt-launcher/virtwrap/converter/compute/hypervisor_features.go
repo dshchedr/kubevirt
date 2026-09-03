@@ -121,6 +121,7 @@ func convertFeatureHypervToAPIFeatureHyperv(source *v1.FeatureHyperv, hyperv *ap
 	hyperv.TLBFlush = convertTLBFlushFeature(source.TLBFlush)
 	hyperv.IPI = convertFeatureState(source.IPI)
 	hyperv.EVMCS = convertFeatureState(source.EVMCS)
+	hyperv.VSM = convertFeatureState(source.VSM)
 }
 
 func convertFeatureState(source *v1.FeatureState) *api.FeatureState {
