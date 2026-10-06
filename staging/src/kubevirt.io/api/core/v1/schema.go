@@ -1389,6 +1389,14 @@ type FeatureHyperv struct {
 	// Defaults to the machine type setting.
 	// +optional
 	VSM *FeatureState `json:"vsm,omitempty"`
+	// XMMInput enables passing hypercall input via XMM registers.
+	// Defaults to the machine type setting.
+	// +optional
+	XMMInput *FeatureState `json:"xmminput,omitempty"`
+	// XMMOutput enables passing hypercall output via XMM registers.
+	// Defaults to the machine type setting.
+	// +optional
+	XMMOutput *FeatureState `json:"xmmoutput,omitempty"`
 }
 
 type FeatureKVM struct {

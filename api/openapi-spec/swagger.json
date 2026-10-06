@@ -15087,6 +15087,14 @@
      "vsm": {
       "description": "VSM exposes the Virtual Secure Mode enlightenment to the guest. Defaults to the machine type setting.",
       "$ref": "#/definitions/v1.FeatureState"
+     },
+     "xmminput": {
+      "description": "XMMInput enables passing hypercall input via XMM registers. Defaults to the machine type setting.",
+      "$ref": "#/definitions/v1.FeatureState"
+     },
+     "xmmoutput": {
+      "description": "XMMOutput enables passing hypercall output via XMM registers. Defaults to the machine type setting.",
+      "$ref": "#/definitions/v1.FeatureState"
      }
     }
    },
